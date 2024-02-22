@@ -1,0 +1,44 @@
+:root {
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ——————
+---------- INTRO ----------/
+_________________________*/
+
+.intro {
+	background-color: blue;
+	padding: 80px;
+	display: flex;
+}
+
+.intro-image {
+	width: 300px;
+	height: 300px;
+}
+
+.intro-profile-picture {
+	width: 300px;
+	height: 300px;
+}
+
+.intro-image-text {
+	color: var(--white);
+	font-size: 30px;
+	width: 300px;
+	text-align: center;
+}
+
+.intro-about-me {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+	margin: 50px 0;
+	background-color: red;
+}
